@@ -1,0 +1,38 @@
+<html>
+    <body>
+
+        <p id="demo"></p>
+
+
+    <script>
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                mostrarDatos(this);
+            }
+        };
+        xhttp.open("GET", "cfdi.xml", true);
+        xhttp.send(); 
+
+        function mostrarDatos(xml) {
+
+            var xmlDoc = xml.responseXML;
+
+            var rfc = "<![CDATA[?re="+
+            xmlDoc.getElementsByTagName("cfdi:Emisor")[0].getAttribute("rfc")+"rr="+
+            xmlDoc.getElementsByTagName("cfdi:Receptor")[0].getAttribute("rfc")+"tt="+
+            xmlDoc.getElementsByTagName("cfdi:Comprobante")[0].getAttribute("total")+"id="+
+            xmlDoc.getElementsByTagName("tfd:TimbreFiscalDigital")[0].getAttribute("UUID")+"]]>";
+            document.getElementById("demo").innerHTML = rfc;
+            console.log(rfc);
+
+        }
+
+
+
+
+    </script>
+
+    </body>
+</html>
