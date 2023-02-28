@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/diego/Documentos/78927-mat/practica2/practica02/practica02.csproj": {}
+    "/home/diego/Documentos/78927-mat/practica02/practica02.csproj": {}
   },
   "projects": {
-    "/home/diego/Documentos/78927-mat/practica2/practica02/practica02.csproj": {
+    "/home/diego/Documentos/78927-mat/practica02/practica02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/diego/Documentos/78927-mat/practica2/practica02/practica02.csproj",
+        "projectUniqueName": "/home/diego/Documentos/78927-mat/practica02/practica02.csproj",
         "projectName": "practica02",
-        "projectPath": "/home/diego/Documentos/78927-mat/practica2/practica02/practica02.csproj",
+        "projectPath": "/home/diego/Documentos/78927-mat/practica02/practica02.csproj",
         "packagesPath": "/home/diego/.nuget/packages/",
-        "outputPath": "/home/diego/Documentos/78927-mat/practica2/practica02/obj/",
+        "outputPath": "/home/diego/Documentos/78927-mat/practica02/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/diego/.nuget/NuGet/NuGet.Config"

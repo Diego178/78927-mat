@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ruycwz097iFLNVxg0Qleetg9qessHXBe88m06WBzKM0ymxOK7zWH2ICl3NJEGSYTsNgFDZcDWzBw55DDDXtc+A==",
+  "dgSpecHash": "yibA96MKtnfXvkXKSLn6gsAb7Oj0TcgaSEQFSU1QP1kWKToPcZe1YpbyJxV/I/ZhBWUa4ewzCTW/dG1vlAfJKQ==",
   "success": true,
-  "projectFilePath": "/home/diego/Documentos/78927-mat/practica2/practica02/practica02.csproj",
+  "projectFilePath": "/home/diego/Documentos/78927-mat/practica02/practica02.csproj",
   "expectedPackageFiles": [
     "/home/diego/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/home/diego/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
