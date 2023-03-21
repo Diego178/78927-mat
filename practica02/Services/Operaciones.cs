@@ -22,7 +22,7 @@ namespace WSDL.operaciones{
         }
         public string Mostrar(int id){
             if(id >= mensajes.Length || id < 0){
-                return "No existe ese id en los limites del array";
+                return "No existe ese id, sobrepasa los limites del array";
             } 
             
             if(!string.IsNullOrEmpty(mensajes[id])){
