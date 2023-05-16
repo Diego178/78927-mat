@@ -1,0 +1,21 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.uv.grpc";
+package com.uv.grpc;
+
+service SaludoService {
+    rpc saludo(SaludoRequest) returns (SaludoResponse);
+}
+
+message SaludoRequest {
+    string nombre = 1;
+    string edad = 2;
+}
+
+message SaludoResponse {
+    string respuesta = 1;
+}
+
+
+
+
